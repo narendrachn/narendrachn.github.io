@@ -311,7 +311,7 @@ body {
     padding: 30px;
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
   }
 
   #image-logo {
