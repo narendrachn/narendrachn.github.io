@@ -9,7 +9,7 @@ body {
 @media only screen and (max-width: 600px) {
 
   body {
-    background-color: rgb(255, 254, 254);
+    background-color: #ffffff;
   }
 
   header {
@@ -306,7 +306,7 @@ body {
   }
 
   header {
-    background-color: rgb(86, 192, 221);
+    background-color: #CCC97E;
     height: 75px;
     padding: 30px;
     display: flex;
@@ -326,7 +326,6 @@ body {
 
   .header-ds a {
     text-decoration: none;
-    margin-left: 400px;
   }
 
   nav {

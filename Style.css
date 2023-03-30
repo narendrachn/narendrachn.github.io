@@ -5,7 +5,7 @@ body{margin: 15px;}
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: rgb(255, 254, 254);
+        background-color: rgb(255, 255, 255);
     }
 
     .header-ds a {
@@ -24,6 +24,11 @@ body{margin: 15px;}
         padding: 30px;
         display: flex;
         align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 15px;
+        left: 10px;
+        width: 85%;
         
     }
 
@@ -36,17 +41,23 @@ body{margin: 15px;}
 
     label {
         display: block;
-
+        position: fixed;
+        
     }
 
     .label-ham {
         background-color: #000000;
         color: white;
+        position: fixed;
+        top: 155px;
+        right: 10px;
+        font-size: 30px;
+       
     }
 
     ul {
         position: fixed;
-        top: 155px;
+        top: 170px;
         right: 10px;
         width: 300px;
         height: calc(100% - 60px);
@@ -223,7 +234,7 @@ body{margin: 15px;}
     }
 
     .colour-code{
-        margin: 10px 0px;
+        margin: 155px 0px;
     }
 
     /* Green */
@@ -427,15 +438,17 @@ body{margin: 15px;}
 
 @media only screen and (min-width: 601px) {
     body {
-        background-color: #c8d4ee;
+        background-color: #ffffff;
     }
 
     header {
-        background-color: rgb(19, 19, 17);
+        background-color: #CCC97E;
         height: 75px;
         width: 100%;
         padding: 30px;
         display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
     header img {
@@ -957,6 +970,7 @@ body{margin: 15px;}
 
     #nav-title {
         margin-left: 325px;
+        margin-top: 200px;
     }
 
     .nav-btn, .nav-btn1, .nav-btn2, .nav-btn3 {
