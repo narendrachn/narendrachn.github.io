@@ -36,8 +36,11 @@ body {
 
   .header-ds a {
     text-decoration: none;
-    
-
+  
+  }
+  .site-link{
+    color: rgb(0, 0, 0);
+    background-color: #358f58;
   }
 
   /* HAmburger menu*/
@@ -326,6 +329,10 @@ body {
 
   .header-ds a {
     text-decoration: none;
+  }
+  .site-link{
+    color: #000000;
+    background-color: #32A8A2;
   }
 
   nav {
