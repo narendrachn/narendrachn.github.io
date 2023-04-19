@@ -83,7 +83,7 @@ body {
   }
 
   footer {
-    background-color: #32A8A2;
+    background-color: #CCC97E;
     display: block;
 
   }
@@ -414,11 +414,11 @@ body {
   }
 
   footer {
-    background-color: #32A8A2;
+    background-color: #CCC97E;
   }
 
   footer {
-    color: green;
+    color: rgb(0, 0, 0);
     padding: 15px;
     display: flex;
     flex-direction: row;
